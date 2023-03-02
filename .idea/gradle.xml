@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/taskmanager-config" name="taskmanager-config">
+                <projects>
+                  <project path="$PROJECT_DIR$/taskmanager-config" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/taskmanager-gateway" name="taskmanager-gateway">
+                <projects>
+                  <project path="$PROJECT_DIR$/taskmanager-gateway" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/taskmanager-server" name="taskmanager-server">
+                <projects>
+                  <project path="$PROJECT_DIR$/taskmanager-server" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/taskmanager-entities" name="taskmanager-entities">
+                <projects>
+                  <project path="$PROJECT_DIR$/taskmanager-entities" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/taskmanager-tasks" name="taskmanager-tasks">
+                <projects>
+                  <project path="$PROJECT_DIR$/taskmanager-tasks" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/taskmanager-utils" name="taskmanager-utils">
+                <projects>
+                  <project path="$PROJECT_DIR$/taskmanager-utils" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/taskmanager-users" name="taskmanager-users">
+                <projects>
+                  <project path="$PROJECT_DIR$/taskmanager-users" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/taskmanager-config" />
+            <option value="$PROJECT_DIR$/taskmanager-entities" />
+            <option value="$PROJECT_DIR$/taskmanager-gateway" />
+            <option value="$PROJECT_DIR$/taskmanager-server" />
+            <option value="$PROJECT_DIR$/taskmanager-tasks" />
+            <option value="$PROJECT_DIR$/taskmanager-users" />
+            <option value="$PROJECT_DIR$/taskmanager-utils" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
